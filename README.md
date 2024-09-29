@@ -74,8 +74,3 @@ This project is a simple Express.js application that retrieves and displays the 
 To use this application, you need an API key from OpenUV. You can sign up for an API key at [OpenUV](https://openuv.io/).
 
 Once you have your API key, replace `your_api_key_here` in the `.env` file.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
