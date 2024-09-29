@@ -1,12 +1,13 @@
 import express from "express";
 import axios from "axios";
 import bodyParser from "body-parser";
+import 'dotenv/config'
+const API_KEY = process.env.API_KEY;
 
 
 const app = express();
 const port = 3000;
 const API_URL = "https://api.openuv.io/api/v1/uv?";//lat=:lat&lng=:lng&alt=:alt&dt=:dt
-const API_KEY = "openuv-e9hqp7rm00sgq8r-io";
 const data = {};
 const config = {
     headers: { "x-access-token" : API_KEY },
